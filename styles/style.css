@@ -1,0 +1,39 @@
+#container {
+  margin: 50px 0;
+  position: relative;
+}
+#container nav {
+  position: absolute;
+  top: 0;
+  width: 5%;
+  height: 300px;
+  line-height: 300px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+#container nav.left {
+  left: 0;
+}
+#container nav.right {
+  right: 0;
+}
+#container .list {
+  width: 90%;
+  margin: auto;
+  height: 300px;
+  display: flex;
+  overflow-x: hidden;
+}
+#container .list .item {
+  width: 400px;
+  min-width: 200px;
+  height: 100%;
+  background: rgba(65, 75, 255, 0.85);
+  margin: 0 10px;
+}
+#container .list .item:nth-child(even) {
+  background: rgba(255, 75, 65, 0.85);
+}
