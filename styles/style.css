@@ -1,12 +1,18 @@
 html,
 
 
-body
+h1{
+    margin-bottom: 2em;
+}
+
 .holster {
   height: 100%;
+  width: 100%;
 }
 .holster {
+
   display: flex;
+  margin-top: 10em;
   align-items: center;
   justify-content: space-between;
   flex-flow: column nowrap;
@@ -21,8 +27,7 @@ body
 }
 
 .container.x {
-  width: 80%;
-  height: 328px;
+  width: 60%;
   flex-flow: row nowrap;
 }
 
@@ -39,8 +44,8 @@ body
 
 .x.container > div {
   line-height: 280px;
-  font-size: 64px;
-  width: 80%;
+  width: 60%;
+  font-size:xx-large;
 }
 
 .container > div:nth-child(even) {
