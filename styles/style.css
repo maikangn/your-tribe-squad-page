@@ -1,23 +1,39 @@
 html,
 
+body {
+  font-family: 'Playfair Display';
+}
 
-h1{
+h1 {
     margin-bottom: 2em;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 4em;
+    text-transform: uppercase;
+    margin: 1rem 0 1rem;
+    color: rgb(59, 121, 88);
+}
+
+h2{
+  margin-bottom: 2em;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  margin: 1.5rem 0 1rem;
+  color: rgb(59, 121, 88);
 }
 
 .holster {
+  display: flex;
   height: 100%;
   width: 100%;
-}
-.holster {
-
-  display: flex;
   margin-top: 10em;
   align-items: center;
   justify-content: space-between;
   flex-flow: column nowrap;
-  font-family: monospace;
-}
+  font-family: arial;
+  }
 
 .container {
   display: flex;
@@ -27,7 +43,7 @@ h1{
 }
 
 .container.x {
-  width: 60%;
+  width:60%;
   flex-flow: row nowrap;
 }
 
