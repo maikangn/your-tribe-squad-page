@@ -24,39 +24,41 @@ body {
 
 body::after
 {
-    content: '';
-    background: rgba(211, 196, 172, 0.611);
-    backdrop-filter: blur(-1px);
-    width: 80%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    margin-left: 10%;
-
-        
+  content: '';
+  background: rgba(211, 196, 172, 0.611);
+  backdrop-filter: blur(-1px);
+  width: 80%;
+  height: 88%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  margin-left: 10%; 
+  margin-top: 4%;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.4);      
 }
 
-.header1
+main 
 {
-    width: 100%;
-
+  width: 80%;
+  overflow: hidden;
+  margin-left: 10%;
 }
 
-h1 {
-    text-align: center;
-    font-size: 8em;
-    text-transform: uppercase;
-    margin: 1rem 0 1rem;
-    color: rgb(27, 10, 66);
+
+h1 
+{
+  text-align: center;
+  font-size: 8em;
+  margin-top: 5rem;
+  color: rgb(27, 10, 66);
+  width: 100%;
 }
 
 h2{
   margin-bottom: 2em;
   text-align: center;
-  font-size: 1.9em;
-  text-transform: uppercase;
-  margin: 1.5rem 0 1rem;
+  font-size: 34px;
+  margin-top: 2em;
   color: rgb(27, 10, 66);
 }
 
@@ -75,11 +77,11 @@ h2{
   box-shadow: 0px 0px 15px #00c853;
 }
 
-.holster {
+.scroll-nav {
   display: flex;
   height: 100%;
   width: 100%;
-  margin-top: 10em;
+  margin-top: 6em;
   align-items: center;
   justify-content: space-between;
   flex-flow: column nowrap;
