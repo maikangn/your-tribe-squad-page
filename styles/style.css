@@ -29,7 +29,7 @@ body::after
   background: rgba(211, 196, 172, 0.611);
   backdrop-filter: blur(-1px);
   width: 80%;
-  height: 120%;
+  height: 110%;
   position: absolute;
   top: 0;
   z-index: -1;
