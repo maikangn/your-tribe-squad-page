@@ -16,7 +16,8 @@ html
   margin: 0;
 }
 
-body {
+body 
+{
   background-image: url(../assets/BG2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,9 +41,11 @@ body::after
 
 main 
 {
-  width: 80%;
-  overflow: hidden;
-  margin-left: 10%;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 
@@ -56,12 +59,9 @@ h1
   box-shadow: 10px 10px 20px rgba(0,0,0,0.4);     
 }
 
-hr
-{
-  color: rgb(27, 10, 66);
-}
 
-h2{
+h2
+{
   margin-bottom: 2em;
   text-align: center;
   font-size: 34px;
@@ -70,26 +70,10 @@ h2{
 
 }
 
-.button {
-  padding: 1em;
-  background-color: transparent;
-  color: #fff;
-  opacity: 0.5;
-  font-size: 0.5em;
-}
-
-.button:hover{
-  background-color: #fff;
-  color: rgb(74, 143, 106);
-  box-shadow: 0px 0px 15px #00c853;
-}
-
-
-/* Vanaf hier begint de croll-navigatie */
 
 .scroll-nav {
+  list-style: none;
   display: flex;
-  width: 100%;
   margin-top: 6em;
   align-items: center;
   justify-content: space-between;
@@ -98,67 +82,39 @@ h2{
   margin-bottom: 10em;
   position: relative;
   bottom: 65px;
-  }
+}
 
-.container {
+.container 
+{
   display: flex;
   overflow: auto;
   flex: none;
   box-shadow: 0px 10px 20px rgba(0,0,0,0.4);     
 }
 
-.container.x {
-  width:60%;
+.container.x 
+{
+  width: 70%;
+  transform-origin: 150px 150px;
   flex-flow: row nowrap;
+  padding-left: 0;
+  display: flex;
+
 }
 
-.x.mandatory-scroll-snapping {
+.x.mandatory-scroll-snapping 
+{
   scroll-snap-type: x mandatory;
 }
 
-
-.container > div {
+.container > li {
   text-align: center;
   scroll-snap-align: center;
   flex: none;
 }
 
-.x.container > div {
+.x.container > a {
   line-height: 16em;
-  width: 48%;
-  font-size:xx-large;
+  column-width: 5em;
 }
 
-.container > div:nth-child(even) {
-  background-color: rgba(211, 196, 172, 0.379);
-}
-
-.container > div:nth-child(odd) {
-
-  background-color: rgba(211, 196, 172, 0.379);
-}
-
-.container > div:nth-of-type(1) {
-  background-repeat: no-repeat;
-  background-image: url(../assets/Strawhats.png);
-}
-
-.container > div:nth-of-type(2) {
-  background-repeat: no-repeat;
-  background-image: url(../assets/Testmilu.png);
-}
-
-.container > div:nth-of-type(3) {
-  background-repeat: no-repeat;
-  background-image: url(../assets/Imposters.png);
-}
-
-.container > div:nth-of-type(4) {
-  background-repeat: no-repeat;
-  background-image: url(../assets/Computernerds.png);
-}
-
-.container > div:nth-of-type(5) {
-  background-repeat: no-repeat;
-  background-image: url(../assets/Coldforce.png) ;
-}
