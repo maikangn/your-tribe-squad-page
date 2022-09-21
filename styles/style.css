@@ -18,8 +18,9 @@ html
 
 body {
   background-image: url(../assets/BG2.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
 }
 
 body::after
@@ -28,7 +29,7 @@ body::after
   background: rgba(211, 196, 172, 0.611);
   backdrop-filter: blur(-1px);
   width: 80%;
-  height: 88%;
+  height: 100%;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -64,8 +65,6 @@ h2{
 
 }
 
-
-
 .button {
   padding: 1em;
   background-color: transparent;
@@ -80,15 +79,20 @@ h2{
   box-shadow: 0px 0px 15px #00c853;
 }
 
+
+/* Vanaf hier begint de croll-navigatie */
+
 .scroll-nav {
   display: flex;
-  height: 100%;
   width: 100%;
   margin-top: 6em;
   align-items: center;
   justify-content: space-between;
   flex-flow: column nowrap;
   font-family: arial;
+  margin-bottom: 10em;
+  position: relative;
+  bottom: 65px;
   }
 
 .container {
@@ -116,8 +120,8 @@ h2{
 }
 
 .x.container > div {
-  line-height: 280px;
-  width: 50%;
+  line-height: 16em;
+  width: 48%;
   font-size:xx-large;
 }
 
@@ -131,21 +135,26 @@ h2{
 }
 
 .container > div:nth-of-type(1) {
+  background-repeat: no-repeat;
   background-image: url(../assets/Strawhats.png);
 }
 
 .container > div:nth-of-type(2) {
+  background-repeat: no-repeat;
   background-image: url(../assets/Testmilu.png);
 }
 
 .container > div:nth-of-type(3) {
+  background-repeat: no-repeat;
   background-image: url(../assets/Imposters.png);
 }
 
 .container > div:nth-of-type(4) {
+  background-repeat: no-repeat;
   background-image: url(../assets/Computernerds.png);
 }
 
 .container > div:nth-of-type(5) {
-  background-image: url(../assets/Coldforce.png);
+  background-repeat: no-repeat;
+  background-image: url(../assets/Coldforce.png) ;
 }
