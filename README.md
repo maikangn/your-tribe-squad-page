@@ -1,10 +1,10 @@
 > Fork deze leertaak en ga aan de slag, de instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-##Straw Hats
+# Straw Hats
 <BR><BR>
  *Live-url:
   
-  ##Kenmerken
+  # Kenmerken
   
   De onderstaande tools hebben wij gebruikt voor het creeëren van de website
   * Visual Studio Code
@@ -14,6 +14,6 @@
   *HTML
   *CSS
   
-  ##Bronvermelding
+  # Bronvermelding
   Lettertypen
   * https://fonts.google.com/
