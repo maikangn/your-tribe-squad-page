@@ -2,7 +2,7 @@
 
 # Straw Hats
 
- *Live-url:
+ * Live-url:
   
   # Kenmerken
   
