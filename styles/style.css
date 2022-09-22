@@ -1,13 +1,11 @@
 html
 {
-  font-family: "black-rose-font", fantasy;
-  
+  font-family: "black-rose-font", fantasy; 
 }
 
 @font-face {
   font-family: "black-rose-font";
-  src: url("../fonts/black-rose-font/BlackRose-2Onld.ttf");
-
+  src: url("../fonts/black-rose-font/BlackRose-2Onld.ttf"); 
 }
 
 * 
@@ -41,20 +39,23 @@ body::after
 
 main 
 {
-  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
 
+a{
+  text-decoration: none;
+  text-overflow: hidden;
+}
 
 h1 
 {
   text-align: center;
   font-size: 8em;
   margin-top: 5rem;
-  color: rgb(27, 10, 66);
+  Color: rgb(43, 30, 16);
   width: 100%;
   box-shadow: 10px 10px 20px rgba(0,0,0,0.4);     
 }
@@ -66,8 +67,17 @@ h2
   text-align: center;
   font-size: 34px;
   margin-top: 2em;
-  color: rgb(27, 10, 66);
+  Color: rgb(43, 30, 16);
 
+}
+
+h3{
+  Color: rgb(43, 30, 16);
+  text-align: center;
+  font-size: 34px;
+  font-family: "black-rose-font", fantasy; 
+  position: relative;
+  bottom: 123px;
 }
 
 
@@ -82,6 +92,7 @@ h2
   margin-bottom: 10em;
   position: relative;
   bottom: 65px;
+  padding-bottom: 0;
 }
 
 .container 
@@ -105,6 +116,7 @@ h2
 .x.mandatory-scroll-snapping 
 {
   scroll-snap-type: x mandatory;
+  overflow-y: hidden;
 }
 
 .container > li {
