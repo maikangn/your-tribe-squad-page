@@ -1,7 +1,7 @@
 > Fork deze leertaak en ga aan de slag, de instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Straw Hats
-<BR><BR>
+
  *Live-url:
   
   # Kenmerken
