@@ -11,8 +11,8 @@
   * Canva
   
   Codeertalen
-  *HTML
-  *CSS
+  * HTML
+  * CSS
   
   # Bronvermelding
   Lettertypen
