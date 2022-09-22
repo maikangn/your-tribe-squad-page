@@ -1,6 +1,7 @@
 > Fork deze leertaak en ga aan de slag, de instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Straw Hats
+![image](https://user-images.githubusercontent.com/112856292/191811833-5b5ca184-85a7-44cd-91bf-e9151a442084.png)
 
  * Live-url:
   
